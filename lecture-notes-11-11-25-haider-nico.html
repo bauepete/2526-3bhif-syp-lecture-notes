@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.20">
 <link rel="icon" type="image/png" href="themes/favicon.png">
-<title>Projekte - Begriff und Merkmale (Jan Brunner)</title>
+<title>Lecture Notes 11.11.2025 - Haider Nico</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -446,262 +446,141 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Projekte - Begriff und Merkmale (Jan Brunner)</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#_gründe_für_projekt_jan_brunner">1. Gründe für Projekt (Jan Brunner)</a>
 <ul class="sectlevel2">
-<li><a href="#_die_durchführung_von_projekten_kann_innovationen_in_folgenden_bereichen_unterstützen_jan_brunner">1.1. Die Durchführung von Projekten kann Innovationen in folgenden Bereichen unterstützen (Jan Brunner)</a></li>
+<li><a href="#_lecture_notes_11_11_2025_haider_nico">1. Lecture Notes 11.11.2025 - Haider Nico</a></li>
+<li><a href="#_klassen_objekte">2. Klassen - Objekte</a>
+<ul class="sectlevel2">
+<li><a href="#_unterschied_klassen_zu_objektdiagramm">2.1. Unterschied: Klassen- zu Objektdiagramm</a></li>
+<li><a href="#_multiplizität">2.2. Multiplizität:</a></li>
+<li><a href="#_generalisierung">2.3. Generalisierung</a></li>
+<li><a href="#_assoziation">2.4. Assoziation</a></li>
+<li><a href="#_assoziationsklasse">2.5. Assoziationsklasse</a></li>
+<li><a href="#_warum_normalisieren">2.6. Warum Normalisieren?</a></li>
 </ul>
 </li>
-<li><a href="#_projektmerkmale_jan_brunner">2. Projektmerkmale (Jan Brunner)</a>
-<ul class="sectlevel2">
-<li><a href="#_merkmale_jan_brunner">2.1. Merkmale (Jan Brunner)</a></li>
-<li><a href="#_risiko_jan_brunner">2.2. Risiko (Jan Brunner)</a></li>
-</ul>
-</li>
-<li><a href="#_weitere_projektmerkmale_jan_brunner">3. Weitere Projektmerkmale (Jan Brunner)</a></li>
-<li><a href="#_projektablauf_projektphasen_jan_brunner">4. Projektablauf - Projektphasen (Jan Brunner)</a>
-<ul class="sectlevel2">
-<li><a href="#_projektphasen_jan_brunner">4.1. Projektphasen (Jan Brunner)</a></li>
-<li><a href="#_begriffs_erklärungen_jan_brunner">4.2. Begriffs Erklärungen (Jan Brunner)</a></li>
-</ul>
-</li>
-<li><a href="#_projektarten_jan_brunner">5. Projektarten (Jan Brunner)</a></li>
+<li><a href="#_uml_diagramm">3. UML-Diagramm</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
+<div class="sect2">
+<h3 id="_lecture_notes_11_11_2025_haider_nico"><a class="anchor" href="#_lecture_notes_11_11_2025_haider_nico"></a>1. Lecture Notes 11.11.2025 - Haider Nico</h3>
+
+</div>
 <div class="sect1">
-<h2 id="_gründe_für_projekt_jan_brunner"><a class="anchor" href="#_gründe_für_projekt_jan_brunner"></a>1. Gründe für Projekt (Jan Brunner)</h2>
+<h2 id="_klassen_objekte"><a class="anchor" href="#_klassen_objekte"></a>2. Klassen - Objekte</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Die Häufigkeit <strong>"individueller" Problemlösungen</strong> nimmt zu, standardisierbare Produktionsprozesse oder Tätigkeiten werden maschinell und/oder durch Informationstechnologien weitgehend automatisiert.</p>
+<p>Klasse: Blueprint für ein Objekt</p>
 </li>
 <li>
-<p>Die zu lösenden <strong>Aufgaben werden komplexer</strong> und können oft nur bereichsübergreifend bewältigt werden.</p>
+<p>Objekt: allokierter Speicher am Heap</p>
 </li>
 <li>
-<p><strong>Betriebliche Innovationen</strong> können in herkömmlicher Linienorganisation nur schwer bewältigt werden.</p>
-</li>
-<li>
-<p>Projekte heben sich von der Alltagsroutine ab - im richtigen Maß eingesetzt, wirken sie <strong>motivierend</strong>, da sie dem individuelleren Selbstbewusstsein heutiger Erwerbsträger besser entsprechen.</p>
-</li>
-<li>
-<p>Im Zuge der Globalisierung arbeiten verteilte Teams an gemeinsamen Aufgaben.</p>
+<p>Identität (Identity): Adresse wo das Objekt im Heap gespeichert ist</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p><strong>Linienorganisation</strong>  = Eine Linie im Organigramm (Vom Chef über Abteilungsleiter zu den Angestellten)</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="https://t2informatik.de/wp-content/uploads/2024/01/organigramm.png" alt="organigramm">
-</div>
-<div class="title">Figure 1. Quelle: <a href="https://t2informatik.de/wissen-kompakt/organigramm/" class="bare">https://t2informatik.de/wissen-kompakt/organigramm/</a></div>
-</div>
 <div class="sect2">
-<h3 id="_die_durchführung_von_projekten_kann_innovationen_in_folgenden_bereichen_unterstützen_jan_brunner"><a class="anchor" href="#_die_durchführung_von_projekten_kann_innovationen_in_folgenden_bereichen_unterstützen_jan_brunner"></a>1.1. Die Durchführung von Projekten kann Innovationen in folgenden Bereichen unterstützen (Jan Brunner)</h3>
+<h3 id="_unterschied_klassen_zu_objektdiagramm"><a class="anchor" href="#_unterschied_klassen_zu_objektdiagramm"></a>2.1. Unterschied: Klassen- zu Objektdiagramm</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Technik</strong></p>
+<p>Klassendiagramm: Bauplan</p>
 </li>
 <li>
-<p><strong>Markt</strong></p>
-</li>
-<li>
-<p><strong>Organisation</strong></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_projektmerkmale_jan_brunner"><a class="anchor" href="#_projektmerkmale_jan_brunner"></a>2. Projektmerkmale (Jan Brunner)</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Projekt &#8594; Merkmale &#8594; höheres Risiko &#8594; erfordert den Einsatz von Projektphasen und Projektmanagement.</p>
-</div>
-<div class="paragraph">
-<p><strong>!!! Verweis Grafik S.3</strong></p>
-</div>
-<div class="sect2">
-<h3 id="_merkmale_jan_brunner"><a class="anchor" href="#_merkmale_jan_brunner"></a>2.1. Merkmale (Jan Brunner)</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>inhaltliche Zielsetzung</strong> / Was mache ich</p>
-</li>
-<li>
-<p><strong>zeitliche Zielsetzung</strong> / Von wann bis wann</p>
-</li>
-<li>
-<p><strong>relative Neuartigkeit</strong> / Habe ich es schonmal gemacht</p>
-</li>
-<li>
-<p><strong>beschränkte Ressourcen</strong> / Wie viel Budget habe ich zum Beispiel oder wie viel Material</p>
-</li>
-<li>
-<p><strong>Komplexität</strong> / Wie viele Personen arbeiten an dem Projekt. Wie viele verschiedene Teilaufgaben gibt es und wie ist die Abhängigkeit zwischen diesen.</p>
+<p>Objektdiagramm: Objekt kann mehrmals vorkommen, da man sie öfters instanzieren (mehrere Instanzen erstellen) kann</p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_risiko_jan_brunner"><a class="anchor" href="#_risiko_jan_brunner"></a>2.2. Risiko (Jan Brunner)</h3>
-<div class="paragraph">
-<p>Wegen der Neuartigkeit und Komplexität hat ein Projekt eine höhere Wahrscheinlichkeit zu scheitern.</p>
-</div>
-<div class="paragraph">
-<p><strong>Risiken treten in allen Bereichen eines Projektes auf</strong></p>
-</div>
+<h3 id="_multiplizität"><a class="anchor" href="#_multiplizität"></a>2.2. Multiplizität:</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>als technisches Realisierungsrisiko</strong> / Zum Beispiel Beamen oder Zeitreisen</p>
+<p>0 Instanzen: Utility KLasse</p>
 </li>
 <li>
-<p><strong>als Zeitrisiko</strong> / / Zu großes Projekt für die angegebene Zeit</p>
+<p>1 Instanz: Singleton</p>
 </li>
 <li>
-<p><strong>als Aufwandsrisiko</strong> / Wenn das Projekt zu viele Ressourcen braucht</p>
-</li>
-<li>
-<p><strong>als Zielsetungsrisiko</strong> / Das gesetzte Ziel wird nicht erreicht</p>
-</li>
-<li>
-<p><strong>als Verwertbarkeitsrisiko</strong> / Das Projekt wird nicht genutzt, d. h. im Umkehrschluss kein Geld, wenn es ein Monitäresprojekt war. Außerdem großer Verlust vom Unternehmen selber.</p>
+<p>mehrere Instanzen: Standard Klasse</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p>Um Risiken zu verringern, braucht man das Risikomanagement. Hier werden rechtzeitig Vorkehrungen getroffen, um Risiken zu senken.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_weitere_projektmerkmale_jan_brunner"><a class="anchor" href="#_weitere_projektmerkmale_jan_brunner"></a>3. Weitere Projektmerkmale (Jan Brunner)</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Um so mehr Merkmale um so genauer kann ein Projekt beschrieben werden.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>Bedeutung</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Die Auswirkung der Erreichung (oder Nichterreichung) des Projektziels auf Teilziele oder das Gesamtziel des Projektträgers wird untersucht</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>Umfang</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Der Projektumfang beschreibt ein Projekt in mehreren Dimensionen:</p>
-</li>
-<li>
-<p>Anzahl der im Rahmen des Projekts durchzuführenden Einzelaufgaben</p>
-</li>
-<li>
-<p>Anzahl der am Projekt beteiligten Personen oder Stellen</p>
-</li>
-<li>
-<p>Umfang (Mengeneinheit) der festgelegten Leistung</p>
-</li>
-<li>
-<p>einzusetzende Mittel (Geldmittel, betriebliche Ressourcen)</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>Anzahl von Projekten</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Die Projektanzahl gibt an, ob von einem Unternehmen oder einer Stelle überwiegend (und daher meist gleichzeitig mehrere) Projekte durchgeführt werden oder ob Projekte eine Ausnahme darstellen.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>Kontinuität des Projekts</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Dieses Kriterium definiert, ob die Projektmitarbeiter kontinuierlich (hauptamtlich) oder nur zeitweise für das Projekt tätig sind.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>Intensität des Projekts</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Die Projektintensität beschreibt die Beanspruchung des Projektteams. Die Teammitglieder können (im Rahmen des Projekts) ausgelastet, über - oder unterbeschäftigt sein.</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_projektablauf_projektphasen_jan_brunner"><a class="anchor" href="#_projektablauf_projektphasen_jan_brunner"></a>4. Projektablauf - Projektphasen (Jan Brunner)</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_projektphasen_jan_brunner"><a class="anchor" href="#_projektphasen_jan_brunner"></a>4.1. Projektphasen (Jan Brunner)</h3>
-<div class="paragraph">
-<p><strong>Projektinitiierung</strong> &#8594; <strong>Projektplanung</strong> &#8594; <strong>Projektdurchführung</strong> &#8594; <strong>Projektfortschritt</strong></p>
-</div>
-<div class="paragraph">
-<p><strong>!!! Verweis</strong> Grafik Systemplanung und Projektentwicklung Buchseite 5 untere Grafik</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_begriffs_erklärungen_jan_brunner"><a class="anchor" href="#_begriffs_erklärungen_jan_brunner"></a>4.2. Begriffs Erklärungen (Jan Brunner)</h3>
+<h3 id="_generalisierung"><a class="anchor" href="#_generalisierung"></a>2.3. Generalisierung</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Definition</strong>: Die Definition beschreibt die im Auftrag formulierten Ziele. Ergebnis ist eine detaillierte Leistungsbeschreibung, etwa in Form eines Pflichtenhefts.</p>
+<p>Vererbungsbeziehung</p>
 </li>
 <li>
-<p><strong>Analyse</strong>: In der Analyse erfolgt die Strukturierung und Gliederung des geplanten Projektergebnisses sowie des Ablaufes, um das Projekt plan - und abwickelbar zu machen. Ergebnisse daraus sind <strong>Produktstrukturplan</strong>, der <strong>Objektstrukturplan</strong> sowie der <strong>Projektstrukturplan</strong> <strong>(PSP)</strong>.</p>
+<p>genauer siehe Foliensatz</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_assoziation"><a class="anchor" href="#_assoziation"></a>2.4. Assoziation</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Strukturelle Beziehung zwischen Elementen (Person arbeitet im Firma)</p>
 </li>
 <li>
-<p><strong>Realisierungsplanung</strong>:In der Realisierungsplanung wird der erforderliche Zeitaufwand für die einzelnen Tätigkeiten, sowie der notwendige Ressourceneinsatz ermittelt. Ergebnisse sind: <strong>Terminlisten</strong>, Balkendiagramme, <strong>Kosten- und Finanzpläne</strong>, <strong>Ressourcenbedarf</strong>(Wie viele Ressourcen werden benötigt, um eine Aufgabe erfolgreich durchzuführen) und <strong>Ressourcenauslastung</strong> (Zu wie viel Prozent werden die verfügbaren Ressourcen genutzt).</p>
+<p>Multiplizität:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Eine Person arbeitet in einer Firma</p>
 </li>
 <li>
-<p><strong>Machbarkeitsstudie</strong>: Ist das Projekt überhaupt umsetzbar. Sei es technisch (Gibt es das technische Wissen oder Maschinen), wirtschaftlich (Lohnt sich das Projekt finanziell), zeitlich (Ist es umsetzbar im geplanten Zeitraum), organisatorisch (Kann das derzeitige Unternehmen das Projekt überhaupt bewältigen. Z. B. genug Personal?)</p>
+<p>Eine Firma kann mehrere Personen anstellen</p>
 </li>
 <li>
-<p><strong>Projektvarianten</strong>: Sind die verschiedenen Wege wie ein Projekt bewältigt werden kann und nach der Abwiegung der Vor- und Nachteile entscheidet man sich dann für eine Variante.</p>
+<p>von Person kann über Firma auf Firmaname zugegriffen werden, ABER nicht von Firma auf Person, bräuchte eigene List Person in Firma &#8658; wartungsintensiv, da mehr Code &#8658; keine Zugriffe in beide Richtungen erwünscht</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
-<p><strong>Projektentscheid</strong>: Wie das Projekt genehmigt und durchgeführt oder nicht.</p>
+<p>Multiplikation = Kardinalität</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_assoziationsklasse"><a class="anchor" href="#_assoziationsklasse"></a>2.5. Assoziationsklasse</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Tabelle zwischen zwei Klassen mit " * zu * " Beziehung</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_warum_normalisieren"><a class="anchor" href="#_warum_normalisieren"></a>2.6. Warum Normalisieren?</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Datenbestand so aufbereiten, damit man nach verschiedenen Kriterien / Dimensionen abfragen kann.</p>
 </li>
 <li>
-<p><strong>Reporting</strong>: Beim Reporting werden Daten so aufbereitet, dass man sehen kann wie gut ein Projekt läuft.</p>
+<p>Informationswürfel: hat mehrere Dimensionen (z.B. Kunde, Produkt, Zeit,&#8230;&#8203;)</p>
 </li>
 <li>
-<p><strong>Claim-Management</strong>: Alles, was zum Projekt dazu gehört. Kurz gesagt was ist im Projekt inbegriffen</p>
+<p>konzeptionelles Schema: gilt für alle, wird durch Views aufgeteilt</p>
 </li>
 <li>
-<p><strong>Projekt-Controlling</strong>: Projektsteuerung. Wie viel Geld habe ich gebraucht. Bin ich zeitlich gut im Rahmen usw.</p>
+<p>externes Schema: Views (Sicht auf Datenbestand nach mehreren Dimensionen, SELECT in db)</p>
 </li>
 </ul>
 </div>
@@ -709,23 +588,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_projektarten_jan_brunner"><a class="anchor" href="#_projektarten_jan_brunner"></a>5. Projektarten (Jan Brunner)</h2>
+<h2 id="_uml_diagramm"><a class="anchor" href="#_uml_diagramm"></a>3. UML-Diagramm</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p><strong>nach dem Auftraggeber</strong>: intern oder extern</p>
-</li>
-<li>
-<p><strong>nach dem Zielen</strong>: sachzielorientiert oder prozessorientiert</p>
-</li>
-<li>
-<p><strong>nach der Häufigkeit</strong>: repetitive (wiederholend) oder nicht repetitiv (einmalig).</p>
+<p>Modell: Abbildung der Realität unter Berücksichtigung eines besonderen Aspekts</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><strong>!!! Verweis</strong> Grafik Seite 13.</p>
 </div>
 </div>
 </div>
