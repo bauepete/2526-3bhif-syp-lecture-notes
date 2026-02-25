@@ -637,6 +637,7 @@ As a <role> I want to <requirement> in order to <reason>.
 
 ==== Remarks on the Section Acceptance Criteria
 Each story must hold a set of acceptance criteria which help to verify whether the story is successfully implemented. Example:
+
   - The added players must be listed in the tab Players
   - All players which are added must get a notification that they are added to the game
   - All players added must see that they are in the waiting room
