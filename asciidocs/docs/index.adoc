@@ -606,3 +606,44 @@ General things discussed
 * If you use GenAI to make your text better readable *YOU are the master of content!!*
   ** `Generate a system spec for a DnD character builder` *BAD PROMPT!!* You will only get Bla text which is immediately recognizable as being generated. *If we get aware of such bullshit you are in DEEP TROUBLE!!*
   ** `Please explain the game DnD in 8 lines. Especially emphasize the terms Dungeon Master, Problems, Classes, Peoples, Characters. The explanation shall be understandable by absolute beginners.` Good prompt *under the assumption* that you read the generated text and add more specific prompts to improve the text.
+
+== 2026-02-25
+=== Product Backlog
+User stories as we define them follow the form as given here:
+
+```
+# Story
+As a <role> I want to <requirement> in order to <reason>.
+
+# Acceptance Criteria
+- <Criterion 1>
+- <Criterion 2>
+- <Criterion 3>
+- <Criterion 4>
+- ...
+
+# Priority
+<Low | Medium | High>
+
+# Effort
+<Story points>
+```
+==== Remarks on the Section Story
+  1. *Role*: Each user of a system has a role. This is to be specified here. Examples: Player, Admin, CEO, ...
+  2. *Requirement*: The thing the user (in their role) wants to do with the system.
+  3. *Reason*: Why shall the role be able to do something?
+
+*Example for a Story:* As a dungeon master I want to add a player in order to setup the player team for one game.
+
+==== Remarks on the Section Acceptance Criteria
+Each story must hold a set of acceptance criteria which help to verify whether the story is successfully implemented. Example:
+  - The added players must be listed in the tab Players
+  - All players which are added must get a notification that they are added to the game
+  - All players added must see that they are in the waiting room
+  - All players added must see the other players added to the game
+  - The dungeon master must be marked as dungeon master
+  - All other players (not added) must not see any details of the game
+  - All other players must be able to request to be added to a specific game
+  - ...
+
+We will collect our user stories as GitHub issues.
